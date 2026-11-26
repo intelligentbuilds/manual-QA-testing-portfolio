@@ -364,3 +364,65 @@ Each defect will be linked to its associated test case when applicable.
 Known demonstration behaviors will be distinguished from unexpected application defects. Behaviors observed through intentionally problematic demonstration accounts will be identified accordingly.
 
 Unresolved defects and testing limitations will be included in the final QA summary report.
+
+
+## 9. Risks and Limitations
+
+### 9.1 Risk Assessment
+
+The following potential risks have been identified during test planning. Risk assessments are preliminary estimates and may be updated throughout test execution.
+
+| Risk ID | Risk Description | Likelihood | Impact | Risk Level |
+|---|---|---|---|---|
+| RISK-001 | Application unavailability | Low | High | Medium |
+| RISK-002 | Internet connectivity interruption | Medium | Medium | Medium |
+| RISK-003 | Unexpected application updates | Medium | High | High |
+| RISK-004 | Incorrect or incomplete test data | Medium | Medium | Medium |
+| RISK-005 | Loss of testing documentation or evidence | Low | High | Medium |
+| RISK-006 | Misclassification of intentional demonstration behavior as a defect | Medium | High | High |
+| RISK-007 | Incomplete test coverage | Medium | High | High |
+| RISK-008 | Browser or operating system configuration changes | Medium | Medium | Medium |
+
+### 9.2 Risk Mitigation
+
+| Risk ID | Mitigation Strategy |
+|---|---|
+| RISK-001 | Verify application availability before testing and resume when service is restored |
+| RISK-002 | Verify network connectivity and document interrupted test executions |
+| RISK-003 | Record testing dates and available application version information |
+| RISK-004 | Prepare and validate test data before execution |
+| RISK-005 | Maintain documentation in GitHub and retain local backups of testing evidence |
+| RISK-006 | Compare account behavior against available documentation and baseline functionality |
+| RISK-007 | Map test cases to defined functional areas and review coverage before test closure |
+| RISK-008 | Record environment changes and repeat affected test cases when necessary |
+
+### 9.3 Testing Limitations
+
+The following limitations apply to this project:
+
+- Testing is limited to a publicly available demonstration application.
+- Testing is performed by a single independent QA tester.
+- Access to application source code, backend systems, and databases is unavailable.
+- Formal business requirements and acceptance criteria may be limited or unavailable.
+- Testing is primarily conducted using Microsoft Edge on macOS.
+- Comprehensive browser and device compatibility testing is excluded.
+- Real financial transactions and payment processing are not evaluated.
+- Application updates and defect corrections are outside the tester's control.
+- Testing cannot guarantee that every possible defect has been identified.
+
+### 9.4 Assumptions and Dependencies
+
+This project depends on the following conditions:
+
+- The SauceDemo application remains publicly accessible.
+- Demonstration accounts remain available for testing.
+- The documented testing environment remains operational.
+- Testing and documentation tools remain accessible.
+- Expected behavior can be established through available documentation, baseline functionality, or clearly documented assumptions.
+
+### 9.5 Risk and Limitation Reporting
+
+Any risks or limitations that affect test execution, coverage, reproducibility, or result accuracy will be documented in the test execution report and final QA summary.
+
+Final conclusions will be limited to the functionality, test data, environment, and scenarios actually evaluated.
+
