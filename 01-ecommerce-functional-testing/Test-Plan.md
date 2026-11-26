@@ -141,3 +141,61 @@ All customer information used during testing will be fictional. No real personal
 - Capture screenshots of observed defects and relevant test results.
 - Record any environmental limitations affecting test execution.
 
+
+## 6. Testing Strategy
+
+### 6.1 Testing Approach
+
+Testing will be performed manually using a black-box testing approach. Application functionality will be evaluated through the user interface without examining internal source code or implementation details.
+
+Test cases will be designed to evaluate expected application behavior, identify functional inconsistencies, and validate common customer workflows.
+
+### 6.2 Testing Techniques
+
+| Testing Technique | Purpose |
+|---|---|
+| Smoke Testing | Verify that essential application features are operational before detailed testing |
+| Functional Testing | Validate individual application features against expected behavior |
+| Positive Testing | Verify application behavior using valid inputs |
+| Negative Testing | Evaluate application responses to invalid or missing inputs |
+| Equivalence Partitioning | Group similar test inputs into representative categories |
+| Boundary Value Analysis | Evaluate input values at and around established limits where applicable |
+| End-to-End Testing | Validate complete customer purchasing workflows |
+| Exploratory Testing | Investigate application behavior beyond predefined test cases |
+| Retesting | Verify previously reported defects following a confirmed correction |
+| Regression Testing | Verify that existing functionality remains operational following application changes |
+
+### 6.3 Test Execution Approach
+
+Testing will follow a structured sequence:
+
+1. Verify application availability and environment readiness.
+2. Perform initial smoke testing.
+3. Execute authentication test cases.
+4. Execute product inventory and sorting test cases.
+5. Execute shopping cart test cases.
+6. Execute checkout and order confirmation test cases.
+7. Conduct targeted exploratory testing.
+8. Document actual results and observed defects.
+9. Perform retesting and regression testing when applicable.
+10. Prepare a final test execution summary.
+
+### 6.4 Test Result Classification
+
+| Status | Definition |
+|---|---|
+| Pass | Actual behavior matches the expected result |
+| Fail | Actual behavior differs from the expected result |
+| Blocked | Testing cannot proceed due to a dependency or environmental issue |
+| Not Run | The test case has not been executed |
+| Not Applicable | The test case does not apply to the current testing conditions |
+
+### 6.5 Evidence and Traceability
+
+Each test case will have a unique identifier and documented expected and actual results.
+
+Observed defects will be linked to relevant test cases where applicable and supported by reproducible steps, screenshots, and environmental information.
+
+Test results will reflect actual application behavior. Unexecuted tests will not be recorded as passed or failed.
+
+Testing techniques requiring confirmed input limits or application changes will only be applied when those conditions are available.
