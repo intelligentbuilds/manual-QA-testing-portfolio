@@ -199,3 +199,70 @@ Observed defects will be linked to relevant test cases where applicable and supp
 Test results will reflect actual application behavior. Unexecuted tests will not be recorded as passed or failed.
 
 Testing techniques requiring confirmed input limits or application changes will only be applied when those conditions are available.
+
+
+## 7. Entry and Exit Criteria
+
+### 7.1 Entry Criteria
+
+The following conditions must be satisfied before formal test execution begins:
+
+- The SauceDemo application is accessible.
+- The test environment is configured and documented.
+- The test plan is completed and reviewed.
+- Test cases are designed and documented.
+- Required demonstration accounts are available.
+- Necessary test data has been prepared.
+- Expected results are defined for planned test cases.
+- Testing documentation and evidence collection tools are available.
+
+### 7.2 Exit Criteria
+
+The following conditions must be satisfied before testing is considered complete:
+
+- All applicable planned test cases have been executed or have documented reasons for being blocked or not executed.
+- Actual results and execution statuses are documented.
+- Identified defects have been recorded with reproducible steps.
+- Defect severity and priority have been assessed.
+- Relevant screenshots and testing evidence have been collected.
+- Retesting and regression testing have been performed where applicable.
+- Outstanding defects, risks, and limitations are documented.
+- A final QA summary and test execution report have been completed.
+
+### 7.3 Suspension Criteria
+
+Testing may be temporarily suspended under the following conditions:
+
+- The application becomes unavailable.
+- Network connectivity prevents test execution.
+- Required demonstration accounts become inaccessible.
+- A critical defect prevents further testing.
+- Environmental issues make test results unreliable.
+
+### 7.4 Resumption Criteria
+
+Testing may resume when:
+
+- Application accessibility has been restored.
+- Environmental issues have been resolved.
+- Required test accounts and data are available.
+- Blocking conditions have been removed or an appropriate workaround is documented.
+- The testing environment has been verified.
+
+### 7.5 Test Completion Metrics
+
+The following metrics will be recorded in the final test report:
+
+- Total planned test cases
+- Total executed test cases
+- Passed test cases
+- Failed test cases
+- Blocked test cases
+- Not executed test cases
+- Not applicable test cases
+- Test execution rate
+- Test pass rate
+- Total defects identified
+- Defects categorized by severity and priority
+
+Final testing conclusions will be based on documented execution results rather than assumed application quality.
