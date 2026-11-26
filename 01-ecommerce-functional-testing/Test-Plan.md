@@ -1,5 +1,5 @@
 
-# Test Plan — E-commerce Functional Testing
+# Test Plan – E-commerce Functional Testing
 
 ## 1. Document Information
 
@@ -10,10 +10,12 @@
 | Application URL | https://www.saucedemo.com/ |
 | Prepared By | Michael Upshaw |
 | Role | Manual QA Tester (Portfolio Project) |
-| Document Version | 1.0 |
-| Created Date | November 26, 2026 |
-| Status | Draft |
+| Version | 1.0 |
+| Date | November 26, 2026 |
+| Review Date | November 26, 2026 |
+| Status | Final |
 | Testing Type | Manual Functional Testing |
+
 
 ## 2. Project Overview
 
