@@ -426,3 +426,71 @@ Any risks or limitations that affect test execution, coverage, reproducibility, 
 
 Final conclusions will be limited to the functionality, test data, environment, and scenarios actually evaluated.
 
+
+## 10. Test Deliverables
+
+### 10.1 Planned Deliverables
+
+The following deliverables will be produced throughout the E-commerce Functional Testing project:
+
+| Deliverable ID | Deliverable | File Name | Purpose |
+|---|---|---|---|
+| DEL-001 | Test Plan | Test-Plan.md | Define testing objectives, scope, strategy, environment, and procedures |
+| DEL-002 | Test Cases | Test-Cases.xlsx | Document test scenarios, preconditions, test steps, and expected results |
+| DEL-003 | Test Execution Results | Test-Cases.xlsx | Record actual results, execution statuses, and associated defect identifiers |
+| DEL-004 | Test Execution Report | Test-Execution-Report.md | Summarize test execution activities, coverage, and results |
+| DEL-005 | Bug Reports | Bug-Reports.md | Document observed defects, reproduction steps, severity, priority, and evidence |
+| DEL-006 | Testing Evidence | Screenshots/ | Maintain visual evidence supporting test results and defect reports |
+| DEL-007 | QA Summary Report | QA-Summary-Report.md | Present overall findings, unresolved issues, limitations, and recommendations |
+
+### 10.2 Deliverable Schedule
+
+| Testing Phase | Expected Deliverables |
+|---|---|
+| Test Planning | Test Plan |
+| Test Design | Test Cases and Test Data |
+| Test Execution | Execution Results and Testing Evidence |
+| Defect Reporting | Bug Reports and Supporting Evidence |
+| Test Closure | Test Execution Report and QA Summary Report |
+
+### 10.3 Documentation Standards
+
+All testing deliverables will follow consistent documentation standards:
+
+- Clear and professional formatting
+- Unique test case and defect identifiers
+- Accurate and reproducible test steps
+- Clearly defined expected and actual results
+- Consistent terminology and status classifications
+- Traceability between test cases, defects, and evidence
+- Accurate testing dates and environment information
+- Version-controlled documentation
+
+### 10.4 Deliverable Storage and Version Control
+
+All project deliverables will be maintained within the manual-QA-testing-portfolio GitHub repository.
+
+Project-specific documentation will be stored within the 01-ecommerce-functional-testing directory.
+
+GitHub commit history will be used to track documentation changes throughout the testing lifecycle.
+
+Screenshots and supporting evidence will use descriptive filenames and reference associated test case or defect identifiers where applicable.
+
+### 10.5 Deliverable Completion Criteria
+
+A deliverable will be considered complete when:
+
+- All required information has been documented.
+- Content has been reviewed for accuracy and completeness.
+- Formatting and readability have been verified.
+- Relevant test cases, defects, and evidence are traceable.
+- The deliverable accurately reflects actual testing activities.
+- The final version has been committed to GitHub.
+
+No test results, defects, evidence, or execution activities will be fabricated.
+
+### 10.6 Project Completion Statement
+
+The completed project will demonstrate practical manual software testing skills, including test planning, test case design, functional testing, defect identification, defect reporting, evidence collection, and QA reporting.
+
+All conclusions will be supported by documented observations and actual test execution results.
