@@ -33,7 +33,7 @@ Testing will focus on common customer workflows, including authentication, produ
 - Maintain clear and traceable testing documentation.
 - Provide a final summary of application quality based on observed testing results.
 
-- 
+  
 ## 4. Testing Scope
 
 ### 4.1 In Scope
@@ -266,6 +266,22 @@ The following metrics will be recorded in the final test report:
 - Defects categorized by severity and priority
 
 Final testing conclusions will be based on documented execution results rather than assumed application quality.
+
+
+#### Metric Calculation Formulas
+
+- Total applicable test cases = Total planned test cases
+  - Not applicable test cases
+- Total executed test cases = Passed + Failed
+- Test execution rate (%) = (Total executed test cases /
+  Total applicable test cases) x 100
+- Test pass rate (%) = (Passed /
+  Total executed test cases) x 100
+
+Blocked and Not Run test cases will be tracked separately.
+
+When a calculation denominator is zero, the metric will
+be reported as Not Applicable (N/A).
 
 
 ## 8. Defect Management
