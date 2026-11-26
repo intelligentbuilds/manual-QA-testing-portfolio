@@ -266,3 +266,101 @@ The following metrics will be recorded in the final test report:
 - Defects categorized by severity and priority
 
 Final testing conclusions will be based on documented execution results rather than assumed application quality.
+
+
+## 8. Defect Management
+
+### 8.1 Defect Identification
+
+Potential defects will be identified by comparing actual application behavior against documented expected results.
+
+Each potential defect will be investigated to determine whether the behavior represents a software issue, expected application behavior, a test data issue, or an environmental limitation.
+
+Defects will be reproduced where possible before being formally documented.
+
+### 8.2 Defect Reporting
+
+Each defect report will contain the following information:
+
+- Unique defect identifier
+- Defect title
+- Date reported
+- Application module
+- Associated test case identifier, where applicable
+- Test environment
+- Preconditions
+- Steps to reproduce
+- Expected result
+- Actual result
+- Severity
+- Priority
+- Defect status
+- Reproducibility
+- Supporting screenshots or evidence
+- Additional observations
+
+Defects will be documented in the Bug-Reports.md file.
+
+### 8.3 Defect Severity Classification
+
+| Severity | Description |
+|---|---|
+| Critical | Essential application functionality is unavailable with no reasonable workaround |
+| High | Major functionality is significantly affected |
+| Medium | Functionality is partially affected or a reasonable workaround exists |
+| Low | Minor cosmetic, usability, or non-critical functionality issue |
+
+### 8.4 Defect Priority Classification
+
+| Priority | Description |
+|---|---|
+| P1 - Urgent | Requires immediate attention |
+| P2 - High | Should be addressed as soon as reasonably possible |
+| P3 - Medium | Can be scheduled for resolution |
+| P4 - Low | Can be addressed when resources permit |
+
+Severity and priority will be assessed independently based on functional impact and estimated business urgency.
+
+### 8.5 Defect Lifecycle
+
+A typical professional defect lifecycle includes:
+
+1. New
+2. Triaged
+3. Assigned
+4. In Progress
+5. Resolved
+6. Retesting
+7. Closed or Reopened
+
+For this independent portfolio project, defect statuses will reflect only activities that have actually occurred.
+
+Developer assignments, corrections, and defect closures will not be fabricated.
+
+### 8.6 Defect Verification and Evidence
+
+Before documenting a defect, the tester will:
+
+- Repeat the reproduction steps where possible.
+- Confirm the expected behavior or document the underlying assumption.
+- Verify that the correct test data and account were used.
+- Investigate potential environmental or configuration issues.
+- Record the frequency of occurrence.
+- Capture relevant screenshots or other supporting evidence.
+- Check for duplicate defect reports.
+
+Intermittent issues will be documented with their observed frequency and reproduction conditions.
+
+### 8.7 Defect Tracking and Traceability
+
+Defects will use the following identification format:
+
+- BUG-001
+- BUG-002
+- BUG-003
+
+Each defect will be linked to its associated test case when applicable.
+
+Known demonstration behaviors will be distinguished from unexpected application defects. Behaviors observed through intentionally problematic demonstration accounts will be identified accordingly.
+
+Unresolved defects and testing limitations will be included in the final QA summary report.
